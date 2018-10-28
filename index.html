@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+    <title>Crystal clicking game</title>
+    <link rel="reset" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type = "text/css" href="assets/css/style.css">
+    
+</head>
+<body>
+    <h1>Crystal Game!</h1>
+    <p id = "instructions">
+        Welcome to the Crystal Game!
+
+        Here you will be given a randomly generated number that you will need to match to win the game.
+
+        To work your score up from zero, you will need to click on each of the crystals, adding them 
+        together to increase your score.  Be careful though, if your score becomes higher than the
+        target number, the game is lost!  But don't worry, The game will reset whether you win or lose, 
+        so you can keep trying as many times as you like!
+        
+        Each crystal has a random number, and you won't be told exactly what it is.  But with a bit of
+        observation, logic, and a good memory, you will figure it out!
+
+        
+        Good luck and Have fun!
+    </p>
+    <div id = "user-goal">
+    <h2>Here is your number to get = <span id = "number-to-guess"></span></h2>
+    <h2>Here is your number so far = <span id = "user-number">0</span></h2>
+    </div>
+    <h2><span id = "win-or-lose"></span></h2>
+   <div id= "the-crystals"><img id = "red" class="gem" src = "assets/images/red-gem.png" alt = "Red Crystal"><img id = "green" class = "gem" src ="assets/images/green-gem.png" alt = "Green Crystal"><img id = "blue" class="gem" src = "assets/images/blue-gem.png" alt = "Blue Gem"><img id = "yellow" class = "gem" src = "assets/images/yellow-gem.png" alt = "Yellow Gem"></div>
+
+
+
+    <div id = "score">
+    <div>Wins = <span id = "wins">0</span></div>
+    <div>Losses = <span id = "losses">0</span></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
