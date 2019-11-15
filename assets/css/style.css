@@ -6,12 +6,15 @@
 body{
     background-image: url("../images/just-waves.png");
     font-size: 20px;
-    
+    text-align: center;
 }
 #instructions{
     background-color: red;
+    color: white;
+    
     width: 50%;
     padding: 25px;
+    margin-left: 20%;
 }
 #user-goal{
     background-color: aquamarine;
@@ -22,4 +25,8 @@ body{
     font-size: 20px;
     width: 50%;
     padding: 20px;
+    margin-left: 20%;
+}
+img{
+    border: 5px solid black;
 }
